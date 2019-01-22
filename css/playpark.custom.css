@@ -123,6 +123,12 @@
 
 @media (max-width:575px) {
 }
+.cell-overflow {
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
 .col-size-1 {
 	width: 100px;
 }
@@ -131,6 +137,9 @@
 }
 .col-size-3 {
 	width: 160px;
+}
+.col-size-4 {
+	width: 530px;
 }
 .theme-table-top {
 	border-top: 2px solid #7cf921 !important;
