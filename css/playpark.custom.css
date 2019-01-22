@@ -48,7 +48,7 @@
 /**********************************************************/
 .style-2 {
 	overflow-y: scroll;
-	height: 370px;
+	height: 334px;
 }
  .style-2::-webkit-scrollbar {
  width: 12px;
@@ -98,7 +98,7 @@
 	/* background-color: rgb(19, 0, 0); */
 	/* background-size: cover; */
 	height: 536px;
-	width: 1140px;
+	width: 696px;
 	padding: 10px !important;
 	background: rgb(0, 0, 0);
 	border-radius: 10px;
@@ -133,13 +133,13 @@
 	width: 100px;
 }
 .col-size-2 {
-	width: 280px;
-}
-.col-size-3 {
 	width: 160px;
 }
+.col-size-3 {
+	width: 120px;
+}
 .col-size-4 {
-	width: 530px;
+	width: 250px;
 }
 .theme-table-top {
 	border-top: 2px solid #7cf921 !important;
