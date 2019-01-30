@@ -1,44 +1,16 @@
 /**********************************************************/
 /******************** Font Setting  ***********************/
 /**********************************************************/
-
 .ff-kn {
 	font-family: 'Kanit', sans-serif;
 }
 /**********************************************************/
 /********************** BS Custom  ************************/
 /**********************************************************/
-
-.nav-pills .nav-link {
-	border-radius: .25rem;
-	color: #ff7676;
-	background-color: #a00000;
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-	color: #fff;
-	background-color: #ef0000;
-	opacity: 1;
-	font-weight: 700;
-}
 .table td, .table th {
 	padding: 0.45rem 0.75rem;
 	vertical-align: top;
 	border-top: 1px solid #305d10;
-}
-.nav-link {
-	display: block;
-	padding: 0.2rem 1rem;
-}
-/* .table td, .table th {
-    padding: 0.4rem 0.75rem;
-    vertical-align: top;
-    border-top: 1px solid #840000;
-    width: 210px;
-} */
-.dropdown-item.active, .dropdown-item:active {
-	color: #fff;
-	text-decoration: none;
-	background-color: #bf0000;
 }
 .table th {
 	width: 85px;
@@ -90,14 +62,10 @@
 	text-shadow: 0 1px 0px #ffda00, 0 0 3px #ffda00;
 }
 .box-full {
-	/* width: 324px; */
 	position: relative;
 	font-size: 12px;
 	color: white;
-	/* background: url(../images/bg.png) center center; */
-	/* background-color: rgb(19, 0, 0); */
-	/* background-size: cover; */
-	height: 855px;
+	height: 885px;
 	width: 696px;
 	padding: 10px !important;
 	background: rgb(0, 0, 0);
@@ -105,24 +73,6 @@
 	border: 2px #7cf921 dotted;
 }
 
-/**********************************************************/
-/******************** Media Query  ************************/
-/**********************************************************/
-
-@media (min-width:1200px) {
-}
-
-@media (min-width:992px)and (max-width:1199px) {
-}
-
-@media (min-width:768px)and (max-width:991px) {
-}
-
-@media (min-width:576px)and (max-width:767px) {
-}
-
-@media (max-width:575px) {
-}
 .cell-overflow {
 	display: inline-block;
 	overflow: hidden;
@@ -147,8 +97,26 @@
 	color: #ffcc08;
 	font-weight: 700;
 }
-
 .fst-ts {
     font-size: 16px;
     font-weight: 700
+}
+
+/**********************************************************/
+/******************** Media Query  ************************/
+/**********************************************************/
+
+@media (min-width:1200px) {
+}
+
+@media (min-width:992px)and (max-width:1199px) {
+}
+
+@media (min-width:768px)and (max-width:991px) {
+}
+
+@media (min-width:576px)and (max-width:767px) {
+}
+
+@media (max-width:575px) {
 }
